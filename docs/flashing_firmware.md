@@ -87,3 +87,9 @@ Usage is the same as detailed in the windows and mac sections.
 # Need to flash the bootloader?
 
 Follow the instructions on the Flashing the Bootloader page for the [Adafruit nRF52 Feather](https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader).  You will need a j-link and connect it to the SWD lines of the hardware.
+
+# Troubleshooting
+
+## COM port not showing up when you plug in your board?
+
+You may need the USB/Serial drivers for the board. This board uses the CH340C USB-to-Serial chip. You can install the drivers [by following the instructions here](https://www.instructables.com/id/Arduino-Nano-CH340/).
